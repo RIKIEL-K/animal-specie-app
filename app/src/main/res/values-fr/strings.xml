@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Traductions en français -->
+    <!-- Titre de l'application -->
+    <string name="app_name">Mon Application</string>
+
+    <!-- Titre de l'activité -->
+    <string name="species_title">Espèces</string>
+
+    <!-- Messages pour les capteurs -->
+    <string name="sensor_error_humidity">Capteur d humidité non disponible</string>
+    <string name="sensor_error_temperature">Capteur de température non disponible</string>
+    <string name="no_sensor_error">Aucun capteur disponible</string>
+
+    <!-- Seuils de température -->
+    <string name="temperature_label">Température ambiante :</string>
+    <string name="temperature_alert">Alerte Température</string>
+
+    <!-- Seuils d'humidité -->
+    <string name="humidity_label">Humidité ambiante :</string>
+    <string name="humidity_alert">Alerte Humidité</string>
+
+    <!-- Dialog de confirmation -->
+    <string name="species_details_title">Détails de l espèce</string>
+    <string name="species_modify">Modifier</string>
+    <string name="species_delete">Supprimer</string>
+    <string name="species_cancel">Annuler</string>
+
+    <!-- Messages de notification -->
+    <string name="notification_species_added">Espèce ajoutée avec succès</string>
+    <string name="notification_species_deleted" >Espèce supprimée avec succès</string>
+    <string name="add_species">Ajouter une espèce</string>
+    <string name="my_api_key">YOUR_API_KEY_HERE</string>
+
+    <!-- Pour Edit espece-->
+    <string name="nom_de_l_esp_ce">Nom de l espèce</string>
+    <string name="population_estim_e">Population estimée</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="convertir_en_adresse_lisible">Convertir en adresse lisible</string>
+    <string name="temp_rature_maximale_c">Température maximale (°C)</string>
+    <string name="humidit_maximale">Humidité maximale (%)</string>
+    <string name="humidit_minimale">Humidité minimale (%)</string>
+    <string name="notes_d_observation">Notes d observation</string>
+    <string name="modifier">Modifier</string>
+    <string name="register">Enregistrer</string>
+    <string name="temp_rature_minimale_c">Température minimale (°C)</string>
+    <string-array name="conservation_status_options">
+        <item>Moins de Préoccupation</item>
+        <item>Quasi Menacée</item>
+        <item>Vulnérable</item>
+        <item>En Danger</item>
+        <item>Critiquement en Danger</item>
+        <item>Extincte à l État Sauvage</item>
+        <item>Éteinte</item>
+    </string-array>
+
+    <!-- Pour Form species-->
+    <string name="toolbar">Ajouter une espece</string>
+    <string name="ajoutReussi"> Espèce ajoutée avec succès dans Firebase et SQLite</string>
+    <string name="error_title">Erreur</string>
+    <string name="error_message_invalid_values">Veuillez entrer des valeurs valides pour tous les champs</string>
+    <string name="error_message_firebase_addition_failed">Échec de l ajout dans Firebase</string>
+    <string name="AdresseTrouve">Aucune Adresse Trouve </string>
+    <string name="Permission">Permission de localisation refusée</string>
+
+    <!-- Messages d'erreur pour les capteurs -->
+    <string name="error_temperature_sensor_unavailable">Capteur de température non disponible</string>
+    <string name="error_humidity_sensor_unavailable">Capteur d humidité non disponible</string>
+    <string name="error_no_sensors_available">Aucun capteur disponible</string>
+    <string name="error_notification_permission_denied">Permission de notification refusée</string>
+    <string name="error_species_deleted_from_firebase">Erreur lors de la suppression dans Firebase</string>
+
+    <!-- Notifications d'alerte -->
+    <string name="alert_temperature_high">Alerte Température pour </string>
+    <string name="alert_temperature_low">Température trop basse pour </string>
+    <string name="alert_humidity_high">Alerte Humidité pour </string>
+    <string name="alert_humidity_low">Humidité trop basse pour </string>
+
+    <!-- Divers -->
+
+    <string name="modify">Modifier</string>
+    <string name="delete">Supprimer</string>
+    <string name="cancel">Annuler</string>
+    <string name="species_deleted_successfully">Espèce supprimée avec succès de SQLite et Firebase</string>
+    <string name="species_deleted_failed">Erreur lors de la suppression dans Firebase</string>
+    <string name="species_modified_successfully">Espèce modifiée avec succès</string>
+    <string name="name">Nom</string>
+    <string name="status">Status</string>
+    <string name="Mrequired">Temperature Maximale requise</string>
+    <string name="mrequired">Temperature Minimale requise</string>
+    <string name="MHrequired">Humidite maximale requise</string>
+    <string name="mHrequired">Humidite minimale requise</string>
+    <string name="Notes">Notes</string>
+
+
+
+</resources>

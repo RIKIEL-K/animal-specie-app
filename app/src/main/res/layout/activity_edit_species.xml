@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".EditSpeciesActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:backgroundTint="#E3F2FD"
+    android:background="@drawable/rounded_background">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:textColor="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#E3F2FD"
+        android:padding="24dp"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nom_de_l_esp_ce"
+            android:background="@drawable/rounded_background"
+            android:inputType="text"
+            android:padding="12dp"
+            android:id="@+id/modifier_Edt_nom_espece"/>
+
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:entries="@array/conservation_status_options"
+            android:background="@drawable/rounded_background"
+            android:id="@+id/modifier_spinner"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/population_estim_e"
+            android:inputType="number"
+            android:background="@drawable/rounded_background"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:id="@+id/modifier_Edt_population"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/latitude"
+            android:background="@drawable/rounded_background"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:id="@+id/modifier_Edt_latitude"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/longitude"
+            android:background="@drawable/rounded_background"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:id="@+id/modifier_Edt_longitude"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adresse"
+            android:background="@drawable/rounded_background"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:id="@+id/modifier_Edt_adresse"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/convertir_en_adresse_lisible"
+            android:backgroundTint="@color/facebook_blue"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_background"
+            android:padding="12dp"
+            android:id="@+id/modifier_btn_convert"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/temp_rature_maximale_c"
+            android:inputType="numberDecimal"
+            android:background="@drawable/rounded_background"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:id="@+id/modifier_Edt_temperature_max"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/temp_rature_minimale_c"
+            android:inputType="numberDecimal"
+            android:background="@drawable/rounded_background"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:id="@+id/modifier_Edt_temperature_min"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/humidit_maximale"
+            android:inputType="numberDecimal"
+            android:background="@drawable/rounded_background"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:id="@+id/modifier_Edt_humidite_max"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/humidit_minimale"
+            android:inputType="numberDecimal"
+            android:background="@drawable/rounded_background"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:id="@+id/modifier_Edt_humidite_min"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/notes_d_observation"
+            android:inputType="textMultiLine"
+            android:background="@drawable/rounded_background"
+            android:layout_marginTop="12dp"
+            android:padding="12dp"
+            android:id="@+id/modifier_Edt_notes_observation"/>
+
+
+        <Button
+            android:id="@+id/modifier_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/modifier"
+            android:backgroundTint="#5A4FCF"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/rounded_background"
+            android:padding="12dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+</ScrollView>
