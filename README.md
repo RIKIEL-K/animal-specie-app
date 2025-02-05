@@ -1,4 +1,4 @@
-# 🦎 Animal Species Management App
+#  Animal Species Management App
 
 ## 📌 Overview
 This Android application, built with **Kotlin**, manages animal species while monitoring **temperature** and **humidity** using sensors. It ensures that species are kept within optimal environmental conditions. The app supports **real-time data storage with Firebase** and **offline access through an internal database**.
